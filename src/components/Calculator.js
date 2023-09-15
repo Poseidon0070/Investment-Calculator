@@ -17,6 +17,7 @@ const Calculator = (props) => {
             saving : saving,
             duration : duration
         }
+        props.removeData(false)
         props.sendData(investmentData)
     }
     let resetHandler = () => {
